@@ -2,3 +2,4 @@
 # Only owner-reviewed PRs may change this file. Repos with the kit-bump class trust it.
 b650f302486f9f47cc3c06d352b9cc34aae0f15f  kit from autopilot main 71181ff: uv+sandbox deps, turn cap 40, flags empty runs, kit-bump class; 149 tests green; first real agent PRs ran on this lineage
 cc8e15c02625281e391316de6c7f1cb709d5112a  kit from autopilot main 14b0833: automerge REST check-runs (fixes #41 not merging), implementer never ends with a background command; 158 tests incl. end-to-end automerge
+c55c3b332532633bf7536bb76f2537b131828aca  kit from autopilot main 5ce0854: dispatch chains on agent-exec completion and main pushes, never double-starts an in-flight issue; weekly improve workflow (lessons PR, validated, owner-reviewed); 169 tests
