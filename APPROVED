@@ -6,3 +6,4 @@ c55c3b332532633bf7536bb76f2537b131828aca  kit from autopilot main 5ce0854: dispa
 d99a925ffc21566e3e3beae32465805fb8cbaec7  kit from autopilot main 545e946: gate skips issues whose agent PR already merged (proposer-written, #37), step-summary EROFS fix + Refs/needs-human rule, guard exemption for the proposer settings; 181 tests
 5d64489412b23ccdc1932320e3fb34f7944fcdfe  automerge fetch auth for private repos
 20c8b03bdc4f93e5e964f4ed15d93351eb9006d7  charter + weekly audit
+87f934ed2c96604e44f1afe3954a4d1574bbc30a  audit REST-only
