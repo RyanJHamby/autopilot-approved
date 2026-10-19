@@ -7,3 +7,4 @@ d99a925ffc21566e3e3beae32465805fb8cbaec7  kit from autopilot main 545e946: gate 
 5d64489412b23ccdc1932320e3fb34f7944fcdfe  automerge fetch auth for private repos
 20c8b03bdc4f93e5e964f4ed15d93351eb9006d7  charter + weekly audit
 87f934ed2c96604e44f1afe3954a4d1574bbc30a  audit REST-only
+a14dad2d018f39314a7dc9451e4af5434043de6d  kit PR #1: audit caller counts as a kit-bump caller (tier.py, one line); mirrors reviewed autopilot #48
