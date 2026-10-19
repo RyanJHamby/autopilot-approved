@@ -1,0 +1,24 @@
+name: provenance
+
+# Required check for PRs on this repo. Runs from the BASE branch (pull_request_target), so a PR cannot weaken it. The PR's
+# APPROVED is fetched as data over the API; PR code is never checked out or run. No path filter on purpose: a PR that touches
+# anything besides APPROVED must run the check and fail it, not leave a required check pending forever.
+on:
+  pull_request_target:
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  provenance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4, default ref = the base branch
+        with:
+          persist-credentials: false
+      - name: verify every added kit sha
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 -I .github/provenance/provenance_ci.py --pins .github/provenance/pins.json --approved APPROVED
