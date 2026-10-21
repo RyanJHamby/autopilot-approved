@@ -9,3 +9,4 @@ d99a925ffc21566e3e3beae32465805fb8cbaec7  kit from autopilot main 545e946: gate 
 87f934ed2c96604e44f1afe3954a4d1574bbc30a  audit REST-only
 a14dad2d018f39314a7dc9451e4af5434043de6d  kit PR #1: audit caller counts as a kit-bump caller (tier.py, one line); mirrors reviewed autopilot #48
 bd011f28981bfe1f9ecf27176d30aaed1fdabd89  release release/smoke-1 source=f6e7a89439a070f1214c6d43a24bba2dec620edc
+86d07ad409cb36171d3ec194c19da21437110483  release release/375cae4 source=375cae4361550c037cb2ae64bbaa4bd037fbf26f
